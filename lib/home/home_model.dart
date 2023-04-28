@@ -1,0 +1,29 @@
+import '/backend/api_requests/api_calls.dart';
+import '/components/movie_card_widget.dart';
+import '/flutter_flow/flutter_flow_theme.dart';
+import '/flutter_flow/flutter_flow_util.dart';
+import '/movie_details/movie_details_widget.dart';
+import '/tv_shows_details/tv_shows_details_widget.dart';
+import '/custom_code/widgets/index.dart' as custom_widgets;
+import 'package:smooth_page_indicator/smooth_page_indicator.dart'
+    as smooth_page_indicator;
+import 'package:flutter/material.dart';
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import 'package:google_fonts/google_fonts.dart';
+import 'package:provider/provider.dart';
+
+class HomeModel extends FlutterFlowModel {
+  ///  State fields for stateful widgets in this page.
+
+  // State field(s) for PageView widget.
+  PageController? pageViewController;
+
+  /// Initialization and disposal methods.
+
+  void initState(BuildContext context) {}
+
+  void dispose() {}
+
+  /// Additional helper methods are added here.
+
+}
